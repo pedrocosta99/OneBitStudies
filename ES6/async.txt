@@ -1,0 +1,6 @@
+A execução síncrona segue um fluxo linear, executando o código linha por linha.
+A linha 2 só começa a ser executada depois da completa execução da linha 1.
+
+A execução assíncrona NÃO aguarda o fim da execução de uma linha para passar para a próxima.
+
+exemplo: clog com set timeout mudando a seq
