@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<form action="" onsubmit="addToList()" class="d-flex flex-column w-50 m-5">
+
+  <select id="tipo" name="">
+    <option value="Casa">Casa</option>
+    <option value="Apto">Apartamento</option>
+  </select>
+
+  <input type="text" placeholder="Área em m2" name="area" id="area">
+
+  <div class="my-3">
+    <input type="checkbox" name="alugado" id="alugado" value="Alugado">
+    <label for="checkbox">Alugado</label>
+  </div>
+
+  <button type="submit" class="btn btn-secondary">Cadastrar imóvel</button>
+</form>
+
+<ul id="cadastros">
+
+</ul>
+
+</body>
+</html>
